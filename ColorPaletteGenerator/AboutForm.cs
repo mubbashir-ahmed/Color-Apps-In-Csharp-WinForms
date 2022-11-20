@@ -12,9 +12,9 @@ namespace ColorPaletteGenerator
 {
     public partial class AboutForm : Form
     {
-        String Product = "Simple Color Picker";
+        String Product = "Simple Color Palette Generator";
         String Version = "1.0";
-        String Description = "Simple Color Picker software is a tool to generate color palette containing six (6) colors. It can also provide the conversions of RGB color to HEX, CMYK, HSV and HSL. The user can save all the selected colors in a file.";
+        String Description = "Simple Color Palette Generator software is a tool to generate color palette containing six (6) colors. It can also provide the conversions of RGB color to HEX, CMYK, HSV and HSL. The user can save all the selected colors in a file.";
         public AboutForm()
         {
             InitializeComponent();
