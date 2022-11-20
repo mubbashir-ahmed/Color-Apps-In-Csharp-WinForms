@@ -1,0 +1,38 @@
+C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\ColorPaletteGenerator.csprojAssemblyReference.cache
+C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\ColorPaletteGenerator.MainForm.resources
+C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\ColorPaletteGenerator.Properties.Resources.resources
+C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\ColorPaletteGenerator.csproj.GenerateResource.cache
+C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ColorPaletteGenerator\bin\Debug\ExternalClasses.dll
+C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ColorPaletteGenerator\bin\Debug\ExternalClasses.pdb
+C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\ColorPaletteGenerator.csproj.CopyComplete
+C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\ColorPaletteGenerator.resources.resources
+C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\ColorPaletteGenerator.AboutForm.resources
+C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\ColorPaletteGenerator.HelpForm.resources
+C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ColorPaletteGenerator\bin\Debug\Simple Color Palette Generator.exe.config
+C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ColorPaletteGenerator\bin\Debug\Simple Color Palette Generator.exe.manifest
+C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ColorPaletteGenerator\bin\Debug\Simple Color Palette Generator.application
+C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ColorPaletteGenerator\bin\Debug\Simple Color Palette Generator.exe
+C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ColorPaletteGenerator\bin\Debug\Simple Color Palette Generator.pdb
+C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\Simple Color Palette Generator.exe.manifest
+C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\Simple Color Palette Generator.application
+C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\Simple Color Palette Generator.exe
+C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\Simple Color Palette Generator.pdb
+D:\Repos\ColorPickerApp\ColorPaletteGenerator\bin\Debug\Simple Color Palette Generator.exe.config
+D:\Repos\ColorPickerApp\ColorPaletteGenerator\bin\Debug\Simple Color Palette Generator.exe.manifest
+D:\Repos\ColorPickerApp\ColorPaletteGenerator\bin\Debug\Simple Color Palette Generator.application
+D:\Repos\ColorPickerApp\ColorPaletteGenerator\bin\Debug\Simple Color Palette Generator.exe
+D:\Repos\ColorPickerApp\ColorPaletteGenerator\bin\Debug\Simple Color Palette Generator.pdb
+D:\Repos\ColorPickerApp\ColorPaletteGenerator\bin\Debug\ExternalClasses.dll
+D:\Repos\ColorPickerApp\ColorPaletteGenerator\bin\Debug\ExternalClasses.pdb
+D:\Repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\ColorPaletteGenerator.csprojAssemblyReference.cache
+D:\Repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\ColorPaletteGenerator.AboutForm.resources
+D:\Repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\ColorPaletteGenerator.HelpForm.resources
+D:\Repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\ColorPaletteGenerator.MainForm.resources
+D:\Repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\ColorPaletteGenerator.Properties.Resources.resources
+D:\Repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\ColorPaletteGenerator.resources.resources
+D:\Repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\ColorPaletteGenerator.csproj.GenerateResource.cache
+D:\Repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\Simple Color Palette Generator.exe.manifest
+D:\Repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\Simple Color Palette Generator.application
+D:\Repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\ColorPaletteGenerator.csproj.CopyComplete
+D:\Repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\Simple Color Palette Generator.exe
+D:\Repos\ColorPickerApp\ColorPaletteGenerator\obj\Debug\Simple Color Palette Generator.pdb
