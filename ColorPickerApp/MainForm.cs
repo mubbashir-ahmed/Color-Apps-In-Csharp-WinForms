@@ -22,6 +22,14 @@ namespace ColorPickerApp
         public MainForm()
         {
             InitializeComponent();
+            try
+            {
+                this.Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
+            }
+            catch (Exception)
+            {
+                // Fallback or ignore if icon extraction fails
+            }
         }
 
         private void MainForm_Load(object sender, EventArgs e)
