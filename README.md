@@ -84,7 +84,7 @@ Color-Apps-In-Csharp-WinForms/
 
 ## 📝 License
 
-This project is open source and available under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👤 Author
 
@@ -94,7 +94,7 @@ This project is open source and available under the MIT License.
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to submit a pull request.
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page or submit a pull request.
 
 ## ⭐ Show Your Support
 
