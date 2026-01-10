@@ -1,9 +1,0 @@
-C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ExternalClasses\bin\Debug\ExternalClasses.dll
-C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ExternalClasses\bin\Debug\ExternalClasses.pdb
-C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ExternalClasses\obj\Debug\ExternalClasses.dll
-C:\Users\Mubbashir Ahmed\source\repos\ColorPickerApp\ExternalClasses\obj\Debug\ExternalClasses.pdb
-D:\Repos\ColorPickerApp\ExternalClasses\bin\Debug\ExternalClasses.dll
-D:\Repos\ColorPickerApp\ExternalClasses\bin\Debug\ExternalClasses.pdb
-D:\Repos\ColorPickerApp\ExternalClasses\obj\Debug\ExternalClasses.csprojAssemblyReference.cache
-D:\Repos\ColorPickerApp\ExternalClasses\obj\Debug\ExternalClasses.dll
-D:\Repos\ColorPickerApp\ExternalClasses\obj\Debug\ExternalClasses.pdb
