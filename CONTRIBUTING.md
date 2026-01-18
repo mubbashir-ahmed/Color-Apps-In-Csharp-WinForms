@@ -80,7 +80,7 @@ Avoid vague messages like: `fix`, `changes`, `update stuff`.
 
 ### 7. Submit a Pull Request
 
-Push your branch and open a Pull Request against the `main` branch.
+Push your branch and open a Pull Request against the `master` branch.
 
 ------------------------------------------------------------------------
 
