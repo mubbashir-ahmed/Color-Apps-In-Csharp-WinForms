@@ -63,6 +63,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
+            this.btnTheme = new System.Windows.Forms.Button();
             this.picbxColorSpectrum = new System.Windows.Forms.PictureBox();
             this.btnHelp = new System.Windows.Forms.Button();
             this.btnAbout = new System.Windows.Forms.Button();
@@ -441,6 +442,7 @@
             // 
             this.pnlTitleBar.BackColor = System.Drawing.SystemColors.ControlLight;
             this.pnlTitleBar.Controls.Add(this.pictureBox1);
+            this.pnlTitleBar.Controls.Add(this.btnTheme);
             this.pnlTitleBar.Controls.Add(this.btnMinimize);
             this.pnlTitleBar.Controls.Add(this.btnClose);
             this.pnlTitleBar.Controls.Add(this.label1);
@@ -475,6 +477,20 @@
             this.btnMinimize.UseVisualStyleBackColor = true;
             this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
             this.btnMinimize.MouseHover += new System.EventHandler(this.btnMinimize_MouseHover);
+            // 
+            // btnTheme
+            // 
+            this.btnTheme.FlatAppearance.BorderSize = 0;
+            this.btnTheme.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTheme.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTheme.Location = new System.Drawing.Point(590, 6);
+            this.btnTheme.Name = "btnTheme";
+            this.btnTheme.Size = new System.Drawing.Size(46, 23);
+            this.btnTheme.TabIndex = 18;
+            this.btnTheme.Text = "🌙";
+            this.btnTheme.UseVisualStyleBackColor = true;
+            this.btnTheme.Click += new System.EventHandler(this.btnTheme_Click);
+            this.btnTheme.MouseHover += new System.EventHandler(this.btnTheme_MouseHover);
             // 
             // btnClose
             // 
@@ -594,6 +610,7 @@
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnMinimize;
+        private System.Windows.Forms.Button btnTheme;
         private System.Windows.Forms.Panel pnlMain;
         private System.Windows.Forms.Panel pnlTitleBar;
         private System.Windows.Forms.PictureBox pictureBox1;

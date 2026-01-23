@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ExternalClasses;
 
 namespace ColorPickerApp
 {
@@ -26,6 +27,17 @@ namespace ColorPickerApp
             lblProduct.Text = "Product Name: " + Product;
             lblVersion.Text = "Version: " + Version;
             txtDescription.Text = Description;
+
+            // Apply saved theme
+            string savedTheme = Properties.Settings.Default.Theme;
+            if (savedTheme == "Dark")
+            {
+                ThemeManager.ApplyTheme(this, ThemeManager.Theme.Dark);
+            }
+            else
+            {
+                ThemeManager.ApplyTheme(this, ThemeManager.Theme.Light);
+            }
         }
 
         private void btnClose_Click(object sender, EventArgs e)

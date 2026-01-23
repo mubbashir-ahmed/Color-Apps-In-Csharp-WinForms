@@ -48,6 +48,19 @@ namespace ColorPaletteGenerator
             RandomColorGenerator(pnlColor6, txtColor6);
 
             this.KeyPreview = true;
+
+            // Load and apply saved theme
+            string savedTheme = Properties.Settings.Default.Theme;
+            if (savedTheme == "Dark")
+            {
+                ThemeManager.ApplyTheme(this, ThemeManager.Theme.Dark);
+                btnTheme.Text = "☀";
+            }
+            else
+            {
+                ThemeManager.ApplyTheme(this, ThemeManager.Theme.Light);
+                btnTheme.Text = "🌙";
+            }
         }
 
         private void MainForm_KeyDown(object sender, KeyEventArgs e)
@@ -434,6 +447,30 @@ namespace ColorPaletteGenerator
 
                 this.Update();
             }
+        }
+
+        private void btnTheme_Click(object sender, EventArgs e)
+        {
+            // Toggle theme
+            if (Properties.Settings.Default.Theme == "Light")
+            {
+                Properties.Settings.Default.Theme = "Dark";
+                ThemeManager.ApplyTheme(this, ThemeManager.Theme.Dark);
+                btnTheme.Text = "☀";
+            }
+            else
+            {
+                Properties.Settings.Default.Theme = "Light";
+                ThemeManager.ApplyTheme(this, ThemeManager.Theme.Light);
+                btnTheme.Text = "🌙";
+            }
+            Properties.Settings.Default.Save();
+        }
+
+        private void btnTheme_MouseHover(object sender, EventArgs e)
+        {
+            ToolTip toolTip = new ToolTip();
+            toolTip.SetToolTip(btnTheme, "Toggle Theme");
         }
     }
 }

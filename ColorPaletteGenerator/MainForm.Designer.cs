@@ -80,6 +80,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
+            this.btnTheme = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.pnlMain.SuspendLayout();
             this.pnlTitle.SuspendLayout();
@@ -730,6 +731,7 @@
             this.pnlTitle.BackColor = System.Drawing.SystemColors.ControlLight;
             this.pnlTitle.Controls.Add(this.pictureBox1);
             this.pnlTitle.Controls.Add(this.label1);
+            this.pnlTitle.Controls.Add(this.btnTheme);
             this.pnlTitle.Controls.Add(this.btnMinimize);
             this.pnlTitle.Controls.Add(this.btnClose);
             this.pnlTitle.Dock = System.Windows.Forms.DockStyle.Top;
@@ -763,6 +765,21 @@
             this.btnMinimize.TabStop = false;
             this.btnMinimize.UseVisualStyleBackColor = true;
             this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
+            // 
+            // btnTheme
+            // 
+            this.btnTheme.FlatAppearance.BorderSize = 0;
+            this.btnTheme.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTheme.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTheme.Location = new System.Drawing.Point(555, 6);
+            this.btnTheme.Name = "btnTheme";
+            this.btnTheme.Size = new System.Drawing.Size(46, 23);
+            this.btnTheme.TabIndex = 16;
+            this.btnTheme.TabStop = false;
+            this.btnTheme.Text = "🌙";
+            this.btnTheme.UseVisualStyleBackColor = true;
+            this.btnTheme.Click += new System.EventHandler(this.btnTheme_Click);
+            this.btnTheme.MouseHover += new System.EventHandler(this.btnTheme_MouseHover);
             // 
             // btnClose
             // 
@@ -854,5 +871,6 @@
         private System.Windows.Forms.Button btnHelp;
         private System.Windows.Forms.Button btnAbout;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnTheme;
     }
 }
