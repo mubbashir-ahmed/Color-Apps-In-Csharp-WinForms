@@ -86,11 +86,13 @@ Color-Apps-In-Csharp-WinForms/
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👤 Author
+## 👤 Contributors
 
-**Mubbashir Ahmed**
-
-- GitHub: [@mubbashir-ahmed](https://github.com/mubbashir-ahmed)
+- **Mubbashir Ahmed** (Author & Maintainer)
+  Github: [@mubbashir-ahmed](https://github.com/mubbashir-ahmed)
+  
+- **QuantumPixelator**
+  Github: [@QuantumPixelator](https://github.com/QuantumPixelator)
 
 ## 🤝 Contributing
 
