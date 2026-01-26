@@ -90,7 +90,13 @@ namespace ColorPickerApp
                 if (String.IsNullOrWhiteSpace(txtRVal.Text))
                     r = 0;
                 else
-                    r = Convert.ToInt32(txtRVal.Text);
+                {
+                    //if valild number, Convert R value
+                    if (Int32.TryParse(txtRVal.Text, out r))
+                        r = Convert.ToInt32(txtRVal.Text);
+                    else
+                        MessageBox.Show(this, "Please enter a valid number.", "Invalid Value!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
                 if (r >= 0 && r <= 255)
                     pnlSelectedColor.BackColor = Color.FromArgb(r, g, b);
                 else
@@ -113,7 +119,13 @@ namespace ColorPickerApp
                 if (String.IsNullOrWhiteSpace(txtGVal.Text))
                     g = 0;
                 else
-                    g = Convert.ToInt32(txtGVal.Text);
+                {
+                    //if valild number, Convert G value
+                    if (Int32.TryParse(txtGVal.Text, out g))
+                        g = Convert.ToInt32(txtGVal.Text);
+                    else
+                        MessageBox.Show(this, "Please enter a valid number.", "Invalid Value!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
                 if (g >= 0 && g <= 255)
                     pnlSelectedColor.BackColor = Color.FromArgb(r, g, b);
                 else
@@ -136,13 +148,21 @@ namespace ColorPickerApp
                 if (String.IsNullOrWhiteSpace(txtBVal.Text))
                     b = 0;
                 else
-                    b = Convert.ToInt32(txtBVal.Text);
+                {
+                    //if valild number, Convert B value
+                    if (Int32.TryParse(txtBVal.Text, out b))
+                        b = Convert.ToInt32(txtBVal.Text);
+                    else
+                        MessageBox.Show(this, "Please enter a valid number.", "Invalid Value!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
                 if (b >= 0 && b <= 255)
                     pnlSelectedColor.BackColor = Color.FromArgb(r, g, b);
                 else
                     MessageBox.Show(this, "Please enter value from 0 to 255", "Invalid Value!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+
 
         // button methods
         private void btnClose_Click(object sender, EventArgs e)
