@@ -89,8 +89,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Contributors
 
 - **Mubbashir Ahmed** (Author & Maintainer) [@mubbashir-ahmed](https://github.com/mubbashir-ahmed)
-  
 - **QuantumPixelator** [@QuantumPixelator](https://github.com/QuantumPixelator)
+- **Robert Palmer** [@RJPalmer](https://github.com/RJPalmer)
 
 ## 🤝 Contributing
 
