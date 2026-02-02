@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29318.209
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorPickerApp", "ColorPickerApp\ColorPickerApp.csproj", "{3D308C3D-859C-45E7-A4BC-F47C0EE2BB39}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalClasses", "ExternalClasses\ExternalClasses.csproj", "{E9ADEE6E-8619-436E-A328-4B351EB96196}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorPaletteGenerator", "ColorPaletteGenerator\ColorPaletteGenerator.csproj", "{2DC2AAAC-A65F-4B27-A77B-A1A40BF1D5A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorPicker", "ColorPicker\ColorPicker.csproj", "{3D308C3D-859C-45E7-A4BC-F47C0EE2BB39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3D308C3D-859C-45E7-A4BC-F47C0EE2BB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D308C3D-859C-45E7-A4BC-F47C0EE2BB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D308C3D-859C-45E7-A4BC-F47C0EE2BB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D308C3D-859C-45E7-A4BC-F47C0EE2BB39}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E9ADEE6E-8619-436E-A328-4B351EB96196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E9ADEE6E-8619-436E-A328-4B351EB96196}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9ADEE6E-8619-436E-A328-4B351EB96196}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{2DC2AAAC-A65F-4B27-A77B-A1A40BF1D5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DC2AAAC-A65F-4B27-A77B-A1A40BF1D5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DC2AAAC-A65F-4B27-A77B-A1A40BF1D5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D308C3D-859C-45E7-A4BC-F47C0EE2BB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D308C3D-859C-45E7-A4BC-F47C0EE2BB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D308C3D-859C-45E7-A4BC-F47C0EE2BB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D308C3D-859C-45E7-A4BC-F47C0EE2BB39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
